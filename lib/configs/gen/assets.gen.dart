@@ -29,6 +29,9 @@ class $AssetsResourceGen {
   AssetGenImage get afternoon =>
       const AssetGenImage('assets/resource/afternoon.png');
 
+  /// File path: assets/resource/logo.png
+  AssetGenImage get logo => const AssetGenImage('assets/resource/logo.png');
+
   /// File path: assets/resource/night.png
   AssetGenImage get night => const AssetGenImage('assets/resource/night.png');
 
@@ -42,7 +45,7 @@ class $AssetsResourceGen {
   AssetGenImage get snow => const AssetGenImage('assets/resource/snow.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [afternoon, night, noon, raniy, snow];
+  List<AssetGenImage> get values => [afternoon, logo, night, noon, raniy, snow];
 }
 
 class Assets {
